@@ -1,0 +1,379 @@
+.center {
+	text-align:center;
+}
+
+ol {
+	padding:10px;
+	margin:0;
+}
+
+caption {
+	padding:4px;
+}
+
+/* Common */
+
+#content,.alert {
+	margin-right:auto;
+	margin-left:auto;
+	width:1000px;
+}
+
+.login {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login > div {
+	width:360px !important;
+}
+
+#content {
+	width:960px;
+	position:relative;
+	zoom:1;
+}
+
+.date td a {
+	display:inline-block;
+	padding:3px 8px;
+}
+
+.date th, .date td {
+	text-align:center;
+	padding:3px;
+}
+
+/* Box */
+
+.box {
+	font-size:13px;
+	margin:0 0 10px 0;
+	position:relative;
+	border:1px solid;
+}
+
+.box h2, .box p, .box table {
+	margin:0;
+}
+
+.box h2 {
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	padding:2px 10px;
+	cursor:move;
+}
+
+.utils a {
+	position:absolute;
+	top:5px;
+	right:10px;
+	border:1px solid;
+	padding:4px 8px;
+}
+
+.box p {
+	padding:10px;
+}
+
+/* Typography */
+
+label, #navigation, .error, .success, input[type="submit"], input[type="reset"], input[type="button"]  {
+	font-weight:bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	border-bottom:1px solid;
+}
+
+a.edit, a.delete, a.jovahagyas, a.aktival, a.visszavesz, a.megnez, a.uj{
+	padding-left:25px;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.statusz {
+	position: relative;
+	top: 3px;
+}
+a {
+	padding:4px;
+}
+
+/* Table styling */
+
+table {
+	width:100%;
+}
+
+th, td {
+	padding:5px 15px;
+	text-align:left;
+}
+
+/* Header */
+
+#head {
+	-moz-border-radius-topright:10px;
+	border:0;
+	margin:10px auto 0 auto;
+	padding:5px 30px;
+	width:940px;
+}
+
+/* Nagivation */
+
+#navigation {
+	-moz-border-radius-bottomleft:10px;
+	margin:0 auto 10px auto;
+	padding:10px 30px;
+	width:940px;
+}
+
+#navigation > li {
+	display:inline;
+	margin:0
+}
+
+#navigation > li > a, #navigation > li > span {
+	display:inline-block;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+/* Content */
+
+#content {
+	padding:20px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+}
+
+#foot {
+	padding:5px 30px;
+	width:940px;
+	margin:10px auto;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+}
+
+.curved, #navigation a, #navigation span, .error, .success, .box, .utils a {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+}
+
+.curved-alt, input, textarea, select, .box, .date td a, .utils a  {
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+}
+
+/* Forms */
+
+label {
+	display:block;
+	font-size:17px;
+	margin:0 0 5px;
+	position:relative;
+}
+
+small {
+	font-size:12px;
+	font-weight:normal;
+	padding-left:10px;
+}
+
+input, textarea, select{
+	border:1px solid;
+	font-family:inherit;
+	font-size:inherit;
+	padding:4px;
+}
+
+select {
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+	cursor:pointer;
+	width:auto !important;
+}
+
+/* Error and Success messages */
+.error, .success {
+	padding:4px 8px;
+}
+
+/* Pagination */
+.pagination {
+	text-align:right;
+}
+.pagination a, .pagination span {
+	display:inline-block;
+	margin:0 2px;
+	padding:2px 6px;
+}
+
+.tplName {display: none; /*font-size: 0.8em; font-style: italic;*/}
+/**** xmlimport */
+.cb {clear:both;}
+.h10 {height: 10px;}
+#xmlimportlista {background: #eee;}
+#xmlimportlista form {margin: 0;padding:0;}
+#xmlimportlista h5.felso {width:460px;float:left; padding: 0 10px;}
+#xmlimportlista h5.kozbulso {padding: 0 10px;}
+#xmlimportlista .dobozok {background: white; border: 1px solid #aaa;}
+#xmlimportlista .doboz1 {float:left;border-right: 1px solid #aaa;}
+#xmlimportlista .doboz1, #xmlimportlista .doboz2 {width:478px;}
+#xmlimportlista .doboz2 {border-left: 1px solid #aaa; margin-left: 478px;}
+#xmlimportlista .bal {float:left; width:150px;}
+#xmlimportlista .bal img {width:150px;}
+#xmlimportlista .bal .akciosar {font-weight: bold; color: blue; font-size: 1.2em; text-align: center;}
+#xmlimportlista .bal .ar {text-decoration: line-through; font-style: italic; text-align: center;}
+#xmlimportlista .bal .kedv {font-weight: bold; text-align: center;}
+#xmlimportlista .jobb {margin: 0 0 0 150px;}
+#xmlimportlista .jobb .cim {font-weight: bold; padding: 0 5px;}
+#xmlimportlista .jobb .kateg {font-style: italic; padding: 0 5px;}
+#xmlimportlista .jobb .adat2, .orszagnev { padding: 0 5px;}
+#xmlimportlista .jobb .idoszak {font-size: 0.9em; padding: 0 5px;}
+#xmlimportlista .jobb .gps {float:right; font-size: 0.9em;}
+#xmlimportlista .btnAktiv {float:right; width: 100px; background:#393; color:white;border:1px solid #090; padding: 1px 5px;}
+#xmlimportlista .btnInaktiv {float:right; width: 100px; background:#f33; color:white;border:1px solid #900; padding: 1px 5px;}
+#xmlimportlista .btnSzerkeszt {display: block; float:right; width: 100px; text-align:center; color:white; background: black; padding: 2px 5px;}
+#xmlimportlista .piros {background:#fdd;}
+#xmlimportlista .szinkronizal {margin: 20px 0 20px 480px;}
+#xmlimportlista .doboz1 .frontaktiv {font-size: 0.8em; text-align: center; background: #afa; xcolor: white;}
+#xmlimportlista .doboz1 .frontinaktiv {font-size: 0.8em; text-align: center; background: #faa; xcolor: white;}
+#xmlimportlista .doboz1 .edited {font-size: 0.8em; text-align: center; background: #aaf; xcolor: white;}
+#xmlimportlista .doboz1a {float: left; width: 478px; text-align: center;}
+#xmlimportlista .doboz2a {margin-left: 478px; xwidth: 478px; text-align: center;}
+#xmlimportlista .btnValtozatlan {float:right; width: 100px; background:#999; color:white;border:1px solid #777; padding: 1px 5px;}
+
+
+table {
+    margin-bottom: 0px !important;
+}
+.grr_8 {
+	float:left;
+	width:49%;
+}
+td {
+	background: none ;
+}
+.formdiv {
+	background: #fff;
+	transition: all 1s ease 0.4s;
+	/*height: 325px;*/
+}
+.szinkron {
+	background: #B3ECAA;
+}
+.pending {
+	background: gray;
+	opacity: 0.5;
+}
+a.lapA {
+	background:#434A48; color:white;border:1px solid #777; padding: 1px 5px;
+	text-decoration:none; 
+	font-weight: bold;
+}
+a.aktivA {
+	background: #999;	
+}
+.btn {
+ display: inline-block;
+ padding: 5px 10px;
+ border-radius: 5px;  
+ text-decoration: none ;
+  font-weight: bold;
+} 
+.btn-success {
+ background: green;
+ color: #fff;   
+}
+.right {
+ float: right;   
+}
+
+.oldalak {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 2px;
+    border: 1px solid #aaa;
+}
+.aktivoldal {
+    background: #ccc;
+}
+.alert {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.alert-error  {
+	background: #A7000C;
+	color: #fff;
+	font-weight:bold;
+}
+.alert-ok  {
+	background: #117709;
+	color: #fff;
+	font-weight:bold;
+}
+
+table.csikos tr:nth-child(odd) td {background: #CCC}
+
+.vouchersor {
+	padding: 4px;
+}
+.fiz {
+	background: #EBFFED;
+	color: green;
+}
+.tor {
+	background: #F1F1FF;
+	color: #BFBFBF;
+}
+.ttipdiv {
+	display: none;
+}
+.ttipdiv em {
+	float: right;
+	font-size: 1em;
+	cursor: pointer;
+}
+.tooltipnyitva {
+	position: relative;
+}
+.tooltipnyitva div.ttipdiv {
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	font-size: 0.9em;
+	box-shadow: 2px 2px 5px #aaa;
+	top: 29px;
+	left: 0px;
+	z-index: 1000;
+	background: #333;
+	border-radius: 5px;
+	color: #ddd;
+}
+
+.lapozo {
+	text-align: right;
+	
+}
+.lapozo a, .lapozo strong {
+	display: inline-block;
+	padding: 10px;
+	font-size: 1.5em;
+	margin: 3px;
+}
+.lapozo a {
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+
